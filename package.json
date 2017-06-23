@@ -1,6 +1,6 @@
 {
   "name": "shared.components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An amazing module for Angular.",
   "main": "bundles/shared.components.umd.js",
   "module": "index.js",
