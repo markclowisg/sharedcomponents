@@ -6,13 +6,12 @@
 
 var HelloBoxComponent = (function () {
     function HelloBoxComponent() {
-        this.title = 'app works!';
     }
     HelloBoxComponent.decorators = [
         { type: _angular_core.Component, args: [{
                     selector: 'hellobox',
-                    templateUrl: './hellobox.component.html',
-                    styleUrls: ['./hellobox.component.css']
+                    template: "\n    This was not too bad!! \n  ",
+                    styles: []
                 },] },
     ];
     /** @nocollapse */

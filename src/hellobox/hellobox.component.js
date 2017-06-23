@@ -1,13 +1,12 @@
 import { Component } from '@angular/core';
 export var HelloBoxComponent = (function () {
     function HelloBoxComponent() {
-        this.title = 'app works!';
     }
     HelloBoxComponent.decorators = [
         { type: Component, args: [{
                     selector: 'hellobox',
-                    templateUrl: './hellobox.component.html',
-                    styleUrls: ['./hellobox.component.css']
+                    template: "\n    This was not too bad!! \n  ",
+                    styles: []
                 },] },
     ];
     /** @nocollapse */
